@@ -19,6 +19,39 @@ public class JukeboxMusic : MonoBehaviour
 
     public void ChangeMusic(string newMusic)
     {
+        foreach (Music m in musics)
+        {
+            if (m.musicID == currentMusicID)
+            {
+                m.source.Stop();
+                break;
+            }
+        }
 
+        currentMusicID = newMusic;
+    }
+
+    public void StopMusic()
+    {
+        foreach (Music m in musics)
+        {
+            if (m.musicID == currentMusicID)
+            {
+                m.source.Stop();
+                break;
+            }
+        }
+    }
+
+    public void PlayMusic()
+    {
+        foreach (Music m in musics)
+        {
+            if (m.musicID == currentMusicID)
+            {
+                m.source.Play();
+                break;
+            }
+        }
     }
 }
