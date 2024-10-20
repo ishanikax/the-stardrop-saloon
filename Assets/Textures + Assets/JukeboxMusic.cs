@@ -14,7 +14,12 @@ public class JukeboxMusic : MonoBehaviour
             m.source = gameObject.AddComponent<AudioSource>();
             m.source.clip = m.clip;
         }
+    }
 
+    private void Start()
+    {
+        currentMusicID = musics[0].musicID;
+        PlayMusic();
     }
 
     public void ChangeMusic(string newMusic)
