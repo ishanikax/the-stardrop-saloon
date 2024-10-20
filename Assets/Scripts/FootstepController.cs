@@ -47,6 +47,7 @@ namespace SentienceLab
 
 			if (LeftFoot  == null) { LeftFoot  = RightFoot; }
 			if (RightFoot == null) { RightFoot = LeftFoot; }
+
 		}
 
 		// Update is called once per frame
