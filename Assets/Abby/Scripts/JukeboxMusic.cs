@@ -13,6 +13,7 @@ public class JukeboxMusic : MonoBehaviour
         {
             m.source = gameObject.AddComponent<AudioSource>();
             m.source.clip = m.clip;
+            m.SetupSource(gameObject);
         }
     }
 
