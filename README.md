@@ -5,7 +5,6 @@ This project brings the beloved Stardrop Saloon from Stardew Valley to life in U
 <img src="https://github.com/user-attachments/assets/be12d4b4-8a89-4b0e-a5ac-0bf4f13b0fc8" width="195">
 <img src="https://github.com/user-attachments/assets/4dee1753-ae01-4441-a674-d0b46a0f876e" width="195">
 <img src="https://github.com/user-attachments/assets/ca3770d7-6da0-4db9-9663-dcabca14759d" width="195">
-<img src="https://github.com/user-attachments/assets/829518f5-5048-4ab6-86a9-e9698edbc391" width="195">
 <img src="https://github.com/user-attachments/assets/ec7de3ee-ce3b-4cda-9764-a201db67d75e" width="195">
 
 ### 📲 How To Download and Run
